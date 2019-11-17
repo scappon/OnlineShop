@@ -13,4 +13,21 @@ public class HomeController {
 
         return "index";
     }
+
+    @RequestMapping("/items")
+    public String showItemsPage(){
+        return "items";
+    }
+
+    @RequestMapping("/shoppingCart")
+    public String showShoppingCart(){
+        return "shoppingCart";
+    }
+
+    @RequestMapping("/itemDetails")
+    public String showItemDetails(){
+        return "itemDetails";
+    }
+
+
 }
