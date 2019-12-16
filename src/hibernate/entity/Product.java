@@ -3,6 +3,8 @@ package hibernate.entity;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.DecimalMin;
 
 @Entity
 @Table(name = "Products")
@@ -12,12 +14,15 @@ public class Product {
     @Column(name = "productID")
     private int productID;
     @Column(name = "name")
+    @NotBlank(message = "Required")
     private String name;
     @Column(name = "description")
+    @NotBlank(message = "Required")
     private String description;
     @Column(name = "quantityinstock")
     private int quantityInStock;
     @Column(name = "unitprice")
+    @DecimalMin(value = "0.01")
     private double price;
     @Column(name = "imagefilename")
     private String imageFileName;

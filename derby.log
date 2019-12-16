@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Wed Dec 04 14:37:49 CST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.1.3 - (1853019): instance a816c00e-016e-d2a2-1a78-00000f305380 
+on database directory C:\Users\samca\IdeaProjects\OnlineShop\dbonlineshop with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
+Loaded from file:/C:/Apache/db-derby-10.15.1.3-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=12.0.2+10
+user.dir=C:\Users\samca\IdeaProjects\OnlineShop
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 14:43:52 CST 2019: Shutting down Derby engine
+----------------------------------------------------------------
+Wed Dec 04 14:43:52 CST 2019:
+Shutting down instance a816c00e-016e-d2a2-1a78-00000f305380 on database directory C:\Users\samca\IdeaProjects\OnlineShop\dbonlineshop with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
+----------------------------------------------------------------

@@ -5,6 +5,8 @@
   Time: 8:21 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
@@ -28,28 +30,42 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/">Home</a>
-            <a class="nav-item nav-link active" href="/items">Items</a>
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link active" href="/items" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Items</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/items/showAddProductForm">Add Item</a>
+                    <a class="dropdown-item" href="/items">List</a>
+                </div>
+            </li>
             <a class="nav-item nav-link" href="/shoppingCart">Shopping Cart</a>
         </div>
     </div>
 </nav>
 
-<div class="card d-inline-block mx-5 my-5" style="width: 18rem;">
-    <img src="resources/img/samsung55.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Samsung UN55NU8000FXZA Flat 55" 4K UHD 8 Series Smart LED TV (2018)</h5>
-        <p class="card-text">Loaded with features, the NU8000 has advanced smart browsing with voice  control, which finds your shows easily.</p>
-        <a href="/itemDetails" class="btn btn-primary">View Details</a>
-    </div>
-</div>
 
-<div class="card d-inline-block my-5" style="width: 18rem;">
-    <img src="resources/img/lenovo330s.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Lenovo - 330S-15ARR 15.6" Laptop - AMD Ryzen 5 - 8GB Memory - 128GB Solid State Drive</h5>
-        <p class="card-text">Meet the IdeaPad 330S. Thinner & lighter with narrow bezels for broader viewing.</p>
-        <a href="#" class="btn btn-primary">View Details</a>
+<form:form method="GET" action="search">
+    Search <input type="search" name="searchTerm">
+    <input type="submit" value="Search" class="add-button">
+</form:form>
+
+<c:forEach var="tempProduct" items="${products}">
+    <div class="card d-inline-block my-5" style="width: 18rem;">
+        <img src="resources/img/${tempProduct.imageFileName}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">${tempProduct.name}</h5>
+            <c:url var="deleteLink" value="/items/delete">
+                <c:param name="itemId" value="${tempProduct.productID}"/>
+            </c:url>
+            <c:url var="detailsLink" value="/items/details">
+                <c:param name="item" value="${tempProduct.productID}"/>
+            </c:url>
+            <a href="${deleteLink}" class="btn btn-danger">Delete</a>
+            <p class="card-text">${tempProduct.description}</p>
+
+            <a href="${detailsLink}" class="btn btn-primary">View Details</a>
+        </div>
     </div>
-</div>
+</c:forEach>
+
 </body>
 </html>

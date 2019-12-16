@@ -6,118 +6,53 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797dd985-8d9f-49a9-a822-04658019f5be" name="Default Changelist" comment="Spring Added">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_5_5_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/CustomerPaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/items.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/shoppingCart.jsp" afterDir="false" />
+    <list default="true" id="797dd985-8d9f-49a9-a822-04658019f5be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_mchange_c3p0_0_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_validator_hibernate_validator_6_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/ProductDAOimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/customerDAOimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/ImageFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/ImageFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/springmvc/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-product-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/errors.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c801.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/db.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c10.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c111.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c130.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c141.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c180.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c191.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c191.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1c0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1e0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c1f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c1f1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c200.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c211.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c221.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c241.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c251.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c260.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c260.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c271.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c271.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c281.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c281.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c290.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c290.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2c1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2d0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c2f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c2f0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c300.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c300.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c311.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c311.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c321.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c321.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c331.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c331.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c340.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c340.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c351.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c351.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c361.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c361.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c371.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c371.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c380.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c391.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3c0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c3f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c3f1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c411.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c421.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c430.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c430.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c441.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c441.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c451.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c451.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c461.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c461.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c470.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c481.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c770.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c770.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c781.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c781.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c790.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c790.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7c0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c810.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c810.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c821.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c821.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c831.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c831.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c841.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c841.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/cc0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/cc0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/cd1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/cd1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/ce1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/ce1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/lib/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springmvc/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c770.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c770.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c781.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c781.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c790.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c790.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c7e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c7e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c810.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c810.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c821.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c821.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c831.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c831.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbonlineshop/seg0/c841.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dbonlineshop/seg0/c841.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c7f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbonlineshop/seg0/c801.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springmvc/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/springmvc/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/items.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/items.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,63 +84,64 @@
     <session id="-318420260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="html" value="10" />
+          <entry key="class" value="4" />
+          <entry key="html" value="12" />
           <entry key="iml" value="1" />
-          <entry key="java" value="53" />
-          <entry key="jsp" value="4" />
+          <entry key="java" value="75" />
+          <entry key="jsp" value="11" />
           <entry key="log" value="1" />
           <entry key="map" value="1" />
           <entry key="properties" value="6" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="20" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="HTML" value="10" />
+          <entry key="CLASS" value="4" />
+          <entry key="HTML" value="12" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="53" />
-          <entry key="JSP" value="4" />
+          <entry key="JAVA" value="75" />
+          <entry key="JSP" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
           <entry key="Scratch" value="2" />
           <entry key="SourceMap" value="1" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="52" />
-          <entry key="java" value="11900" />
-          <entry key="jsp" value="153" />
+          <entry key="java" value="15278" />
+          <entry key="jsp" value="1270" />
           <entry key="properties" value="166" />
-          <entry key="txt" value="74" />
-          <entry key="xml" value="478" />
+          <entry key="txt" value="87" />
+          <entry key="xml" value="580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="52" />
           <entry key="Hibernate QL" value="146" />
-          <entry key="JAVA" value="11900" />
-          <entry key="JSP" value="153" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="JAVA" value="15278" />
+          <entry key="JSP" value="1270" />
+          <entry key="PLAIN_TEXT" value="87" />
           <entry key="Properties" value="166" />
-          <entry key="XML" value="332" />
+          <entry key="XML" value="434" />
         </counts>
       </usages-collector>
     </session>
@@ -213,188 +149,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1766#1767#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2112#2113#0" expanded="true" />
-                <element signature="e#2161#2162#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2241#2242#0" expanded="true" />
-                <element signature="e#2273#2274#0" expanded="true" />
-                <element signature="e#2323#2324#0" expanded="true" />
-                <element signature="e#2365#2366#0" expanded="true" />
-                <element signature="e#2400#2401#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2479#2480#0" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-                <element signature="e#2559#2560#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-                <element signature="e#2653#2654#0" expanded="true" />
-                <element signature="e#2703#2704#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2761#2762#0" expanded="true" />
-                <element signature="e#2801#2802#0" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2865#2866#0" expanded="true" />
-                <element signature="e#2893#2894#0" expanded="true" />
-                <element signature="e#2935#2936#0" expanded="true" />
-                <element signature="e#2969#2970#0" expanded="true" />
-                <element signature="e#3003#3004#0" expanded="true" />
-                <element signature="e#3033#3034#0" expanded="true" />
-                <element signature="e#3079#3080#0" expanded="true" />
-                <element signature="e#3117#3118#0" expanded="true" />
-                <element signature="e#3151#3152#0" expanded="true" />
-                <element signature="e#3181#3182#0" expanded="true" />
-                <element signature="e#3227#3228#0" expanded="true" />
-                <element signature="e#3265#3266#0" expanded="true" />
-                <element signature="e#3317#3318#0" expanded="true" />
-                <element signature="e#3352#3353#0" expanded="true" />
-                <element signature="e#3421#3422#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/OrderDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1584#1585#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Product.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/items.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1859#1860#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#2027#2028#0" expanded="true" />
-                <element signature="e#2077#2078#0" expanded="true" />
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2229#2230#0" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Orders.java">
+        <entry file="file://$PROJECT_DIR$/src/hibernate/springmvc/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1014">
-              <caret line="32" column="108" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
+            <state relative-caret-position="204">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1944#1945#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2306#2307#0" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2397#2398#0" expanded="true" />
-                <element signature="e#2443#2444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/CustomerPaymentInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/hibernate/services/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="108" selection-start-line="16" selection-start-column="108" selection-end-line="16" selection-end-column="108" />
+            <state relative-caret-position="187">
+              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
               <folding>
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/errors.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate/springmvc/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate/services/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/HibernateApp.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate/dao/ProductDAOimpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -405,10 +262,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -436,23 +293,38 @@
         <option value="$PROJECT_DIR$/src/springxml/beans/orderDetails.java" />
         <option value="$PROJECT_DIR$/src/springxml/beans/Products.java" />
         <option value="$PROJECT_DIR$/src/springxml/springApp.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/itemDetails.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/shoppingCart.jsp" />
-        <option value="$PROJECT_DIR$/src/springmvc/HomeController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/items.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/OrderDetailID.java" />
-        <option value="$PROJECT_DIR$/src/hibernate/HibernateApp.java" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/Customer.java" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/src/hibernate/entity/Product.java" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/Orders.java" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/CustomerPaymentInfo.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/HibernateApp.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/dao/CustomerDAO.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/dao/customerDAOimpl.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/dao/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/springmvc/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/springmvc/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/ImageFileService.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/ImageFileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/services/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/hibernate/entity/Product.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/add-product-form.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/items.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/errors.jsp" />
+        <option value="$PROJECT_DIR$/src/hibernate/springmvc/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/dao/ProductDAOimpl.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/springmvc/ProductController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -493,8 +365,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -534,27 +406,28 @@
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="springxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="springxml" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="springxml" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -573,6 +446,14 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -598,17 +479,21 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path" value="C:\Users\samca\IdeaProjects\OnlineShop\lib\ApacheCommons" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574034946822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576462501896" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="C:/Apache/db-derby-10.15.1.3-bin/lib/derbytools.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -634,7 +519,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateApp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
     <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
       <module name="OnlineShop" />
@@ -741,8 +626,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HibernateApp" />
         <item itemvalue="Application.springApp" />
+        <item itemvalue="Application.HibernateApp" />
       </list>
     </recent_temporary>
   </component>
@@ -763,7 +648,8 @@
       <workItem from="1569466609828" duration="18300000" />
       <workItem from="1571879704090" duration="3288000" />
       <workItem from="1573512605071" duration="37222000" />
-      <workItem from="1574029443010" duration="4119000" />
+      <workItem from="1574029443010" duration="4368000" />
+      <workItem from="1575427549029" duration="34094000" />
     </task>
     <task id="LOCAL-00001" summary="Embedded Derby database">
       <created>1567987569265</created>
@@ -786,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570034194762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hibernate Lab">
+      <created>1574035060698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574035060698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74590000" />
+    <option name="totallyTimeSpent" value="108933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,6 +725,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3291815" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.3291815" />
       <window_info anchor="bottom" id="Hibernate Console" order="16" weight="0.3291815" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -844,7 +738,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49867374" weight="0.27044535" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49867374" visible="true" weight="0.27044535" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -853,32 +747,33 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Learn" order="8" />
       <window_info id="Web" order="9" sideWeight="0.50132626" side_tool="true" weight="0.2574899" />
-      <window_info active="true" anchor="bottom" id="Hibernate Console" order="0" visible="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.49959514" weight="0.3291815" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49878544" weight="0.3291815" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49878544" weight="0.3291815" />
-      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291815" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3291815" />
-      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3291815" />
-      <window_info anchor="bottom" id="Spring" order="16" weight="0.3291815" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32955465" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49959514" weight="0.3291815" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49878544" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49878544" weight="0.3291815" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3291815" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3291815" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3291815" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3291815" />
+      <window_info anchor="bottom" id="Hibernate Console" order="16" weight="0.3291815" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32955465" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -922,139 +817,14 @@
     <MESSAGE value="Embedded Derby database" />
     <MESSAGE value="Servlets added" />
     <MESSAGE value="Spring Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Added" />
+    <MESSAGE value="Hibernate Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Lab" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springxml/beans/Orders.java" />
-    <entry file="file://$PROJECT_DIR$/src/springxml/services/ObjectStateLog.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springxml/springApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springxml/services/Logging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources/css/bootstrap.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springxml/services/ErrorLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springxml/services/TimeLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/items.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/shoppingCart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="35" column="7" selection-start-line="1" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/itemDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="1" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shopdbEntries.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1077,13 +847,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/items.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ServletOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1095,13 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springmvc/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1145,29 +901,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/OrderDetailID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/OrderDetailID.java" />
     <entry file="file://$PROJECT_DIR$/src/springxml/beans/orderDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1214,178 +948,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
-            <element signature="e#2273#2274#0" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2479#2480#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-            <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#2703#2704#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2801#2802#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3117#3118#0" expanded="true" />
-            <element signature="e#3151#3152#0" expanded="true" />
-            <element signature="e#3181#3182#0" expanded="true" />
-            <element signature="e#3227#3228#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
-            <element signature="e#3421#3422#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-            <element signature="e#2077#2078#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate/entity/CustomerPaymentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="108" selection-start-line="16" selection-start-column="108" selection-end-line="16" selection-end-column="108" />
           <folding>
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
             <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/OrderDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+        <state relative-caret-position="221">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Orders.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernate/dao/CustomerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1014">
-          <caret line="32" column="108" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/dao/customerDAOimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate/HibernateApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="2829">
+          <caret line="299" column="42" selection-start-line="299" selection-start-column="42" selection-end-line="299" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/dao/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/derby.jar!/org/apache/derby/impl/jdbc/SQLExceptionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/ImageFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/ImageFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/itemDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/add-product-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/errors.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/items.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/springmvc/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/services/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/itemDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/dao/ProductDAOimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/springmvc/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1292,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring-4.3.18.RELEASE</last-edited>
+          <last-edited>commons-fileupload:commons-fileupload:1.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
